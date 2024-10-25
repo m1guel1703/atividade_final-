@@ -1,48 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template - Utilizar como modelo</title>
-    <link rel="stylesheet" href="base.css">
+    <title>Tiramisu - Doce Italiano Clássico</title>
+    <link rel="stylesheet" href="./base.css">
 </head>
 <body>
-    <div class="wrapper">
-        <nav class="menu">
-            <img class="logo"  src="./images/logo_med.png"
-            <!-- Aqui vai o seu menu -->
-            <ul>
-                <li><a href="./index.html">home</a></li>
-                <li><a href="./sobre.html">sobre nós</a></li>
-                <li><a href="./horarios.html">Horários</a></li>
-                <li><a href="./contatos.html">Contatos</a></li>
-            </ul>
-        </nav>
 
-        <div class="main">
-            <header class="header">
-                <img src="./images/banner_2.jpg" />
-            </header>
-    
-            <div class="content">
-                <h2>Quem somos?</h2>
-                <p>Bem-vindo à Nossa Clínica Odontológica!
-
-                    Na nossa clínica, oferecemos um atendimento personalizado<br>
-                     e de excelência para cuidar do seu sorriso. Com uma equipe de profissionais experientes<br>
-                      e equipamentos de última geração, estamos comprometidos em proporcionar tratamentos dentários de alta qualidade,<br>
-                       garantindo o seu conforto e bem-estar.
-                    
-                    Seja para consultas de rotina, procedimentos estéticos<br>
-                     ou tratamentos mais complexos, estamos aqui para devolver a sua saúde bucal com carinho e dedicação.<br>
-                      Agende uma consulta e descubra como podemos transformar o seu sorriso!</p>
-            </div>
-    
-            <footer class="footer">
-                <address>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, quasi!</address>
-            </footer>
+    <div>   
+        <div class="logo">
+            <img src="./images/" width="200" alt="Logo Tiramisu"/>
         </div>
+    </div>
+
+    <div class="bar"></div>
+
+    <div class="content">
+        <!-- Sidebar com links rápidos -->
+        <div class="sidebar">
+            <h2>Navegação</h2>
+            <ul>
+                <li><a href="#origem">Origem</a></li>
+                <li><a href="#ingredientes">Ingredientes</a></li>
+                <li><a href="#receita">Receita</a></li>
+            </ul>
+        </div>
+
+        <!-- Conteúdo Principal -->
+        <div class="main">
+            <h1>Tiramisu - Um Doce Italiano Clássico</h1>
+
+            <section id="origem">
+                <h2>Origem</h2>
+                <p>O Tiramisu é um doce tradicional italiano, originário da região de Veneto. Sua combinação de café, queijo mascarpone e chocolate criou uma sobremesa icônica e amada mundialmente.</p>
+            </section>
+
+            <section id="ingredientes">
+                <h2>Ingredientes</h2>
+                <ul>
+                    <li>Queijo mascarpone</li>
+                    <li>Biscoitos de champanhe (ou savoiardi)</li>
+                    <li>Café espresso</li>
+                    <li>Açúcar</li>
+                    <li>Ovos</li>
+                    <li>Cacau em pó</li>
+                </ul>
+            </section>
+
+            <section id="receita">
+                <h2>Receita</h2>
+                <p>Para fazer o Tiramisu, prepare o café, molhe os biscoitos e faça uma mistura com queijo mascarpone e ovos. Monte em camadas e finalize com cacau em pó. Leve à geladeira antes de servir.</p>
+            </section>
+        </div>
+
+        <!-- Âncoras laterais -->
+        <div class="anchors">
+            <h2>Conteúdo</h2>
+            <ul>
+                <li><a href="#origem">Origem</a></li>
+                <li><a href="#ingredientes">Ingredientes</a></li>
+                <li><a href="#receita">Receita</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+        <p>&copy; 2023 História do Tiramisu. Todos os direitos reservados.</p>
     </div>
 </body>
 </html>
