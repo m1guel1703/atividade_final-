@@ -28,6 +28,7 @@
     background-color: #444;
     min-width: 150px;
     z-index: 1;
+    padding-inline-start:0 ;
 }
 
 .dropdown-content li {
@@ -137,21 +138,16 @@
 }
 .sub_body2 {
     background-color: white;
-    height: 150px; /* Ajusta a altura de acordo com o conteúdo */
+    min-height: 150px; /* Ajusta a altura de acordo com o conteúdo */
     position: relative;
-    top: 20px;
-    left: 0;
-    right: 0;
     padding: 10px; /* Adiciona espaço interno */
     max-width: 1000px;
     width: 60%;
-    float: center;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    margin: 0 auto;
-   
+    margin: 20px auto;
 }
 .sub_body2 .row {
     display: flex;
@@ -186,28 +182,35 @@
     line-height: 1; /* Ajusta a altura da linha */
     border-radius: 5px; /* Opcional: bordas arredondadas */
 }
-#venda_1 img{
+#cards-venda{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2.4em;
+    justify-content: center;
+}
+.venda{
+    width: 250px;
+    background-color: white;
+}
+.venda img{
     height: 200px;
     width: 250px;
     display: inline-block;
-    margin:50px 0  0 257px ;
     position: relative;
-    
 }
 
-#dados_venda1{
-    background-color: white;
+.venda > div{
     color: black;
     max-height: 400px;
     max-width: 600px;
     height: 210px;
-    margin-left: 257px;
-    margin-right: 826px;
     align-items: flex-start;
     position: relative;
-    top: -22px;
     padding-left: 10px;
     padding-bottom: 0px;
+}
+.venda h3{
+    margin-top: 0;
 }
 .buy{
     display: inline-block; /* Mantém o quadrado ajustado ao conteúdo */
@@ -350,6 +353,9 @@
 
 .formulario button:hover {
     background-color: #444;
+}
+#contact{
+    display: flex;
 }
 
 
